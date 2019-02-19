@@ -1,5 +1,6 @@
 # SQ1AndroidCountrySelector
-A customizable country picker
+
+Android customizable country picker based on current Locale
 
 ![Screenshot](art/main%20screen.png)
 
