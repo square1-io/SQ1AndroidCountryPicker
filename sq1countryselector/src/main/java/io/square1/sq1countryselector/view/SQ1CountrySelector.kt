@@ -6,7 +6,6 @@ import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.SearchView
 import android.util.AttributeSet
-import android.util.TypedValue
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
@@ -26,7 +25,6 @@ class SQ1CountrySelector(context: Context, attrs: AttributeSet?) : LinearLayout(
     private var roundedFlag: Boolean = false
     private var mFlagPosition: Int = 0
     private var itemTextSize: Float = 0.toFloat()
-    private lateinit var tvCountryName : TextView
 
     fun setListener(listener: ItemClickListener) {
         this.listener = listener
@@ -40,7 +38,6 @@ class SQ1CountrySelector(context: Context, attrs: AttributeSet?) : LinearLayout(
             0, 0
         ).apply {
             try {
-
                 countryList = countryUtils.getAllCountries(context)
                 mShowFlag = getBoolean(R.styleable.SQ1CountrySelector_showFlag, false)
                 roundedFlag = getBoolean(R.styleable.SQ1CountrySelector_roundedFlag, false)
