@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="location_searchicon_size">24dp</dimen>
+    <dimen name="default_item_text_sizd">8dp</dimen>
+</resources>

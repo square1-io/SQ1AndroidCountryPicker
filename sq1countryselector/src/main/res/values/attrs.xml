@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SQ1CountrySelector">
+        <attr name="hint" format="string" />
+        <attr name="itemTextSize" format="dimension" />
+        <attr name="filter" format="boolean" />
+        <attr name="showFlag" format="boolean" />
+        <attr name="roundedFlag" format="boolean" />
+        <attr name="flagPosition" format="enum">
+            <enum name="start" value="0"/>
+            <enum name="end" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

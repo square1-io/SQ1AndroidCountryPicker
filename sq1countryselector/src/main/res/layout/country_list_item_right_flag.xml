@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/activity_horizontal_margin"
+                android:paddingBottom="@dimen/activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:orientation="horizontal">
+
+    <TextView
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:id="@+id/tvCountryName"
+            android:layout_width="match_parent"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_toStartOf="@+id/ivCountryFlag"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Country Name"
+            android:textColor="#000"/>
+
+    <ImageView
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:id="@+id/ivCountryFlag"
+            android:adjustViewBounds="true"
+            android:layout_width="32dp"
+            android:src="@drawable/flag_es"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"/>
+</RelativeLayout>
